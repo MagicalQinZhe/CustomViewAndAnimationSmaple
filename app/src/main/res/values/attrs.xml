@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpannableGridLayout">
+        <attr name="column_count" format="integer" />
+        <attr name="row_count" format="integer" />
+        <attr name="column" format="integer" />
+        <attr name="row" format="integer" />
+        <attr name="column_span" format="integer" />
+        <attr name="row_span" format="integer" />
+        <attr name="column_divider" format="reference|color" />
+        <attr name="row_divider" format="reference|color" />
+        <attr name="column_divider_size" format="reference|dimension" />
+        <attr name="row_divider_size" format="reference|dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MagneticDropIndicator">
+        <attr name="normalDropWidth" format="dimension" />
+        <attr name="selectedDropWidth" format="dimension" />
+        <attr name="normalDropColor" format="color|reference" />
+        <attr name="selectedDropColor" format="color|reference" />
+        <attr name="dropSpace" format="dimension" />
+    </declare-styleable>
+</resources>

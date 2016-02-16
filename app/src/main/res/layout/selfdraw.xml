@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zhe.qin.viewandanimation.widget.MagneticDropIndicator xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:dropSpace="50dp"
+    app:normalDropWidth="20dp"
+    app:normalDropColor="#8f00"
+    app:selectedDropWidth="25dp"
+    app:selectedDropColor="#80f0"
+    >
+
+</zhe.qin.viewandanimation.widget.MagneticDropIndicator>
