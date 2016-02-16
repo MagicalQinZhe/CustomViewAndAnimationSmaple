@@ -3,8 +3,6 @@ package zhe.qin.viewandanimation;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -17,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ListView listView = (ListView) findViewById(R.id.list);
-        String[] samples = {"组合view", "自己布局", "自己绘制", "Animation Api", "Transformation", "Animator Api"};
+        String[] samples = {"组合view", "自己布局", "自己绘制", "Animation Api", "Transformation", "Animator Api", "自定义View与animator"};
         listView.setAdapter(new ArrayAdapter<String>(this, R.layout.list_item, samples));
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -39,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
                         gotoLayout(R.layout.self_layout, true);
                         break;
                     case 5:
+                        gotoLayout(R.layout.composite2, true);
+                        break;
+                    case 6:
                         gotoLayout(R.layout.selfdraw, true);
                         break;
                 }
